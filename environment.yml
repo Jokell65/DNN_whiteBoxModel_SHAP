@@ -1,0 +1,17 @@
+name: blackbox_lime
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python==3.11
+  - pip
+  - pip:
+    - optax==0.1.7
+    - numpy
+    - pandas
+    - tensorflow
+    - tensorflow_datasets
+    - matplotlib
+    - jax[cpu]
+    - flax[all]
+    - lime
